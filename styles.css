@@ -1,0 +1,166 @@
+/* Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation  */
+nav {
+    background-color: #34123b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.banner {
+    text-align: center;
+    padding: 32px;
+}
+
+.banner img {
+    max-width: 70%;
+    height: 70%;
+}
+
+
+footer {
+    background-color: #34123b;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.logo img{
+    max-width: 80%;
+    max-height: 80%
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+/* About Us */
+.about-us {
+    padding: 32px;
+}
+
+.about-us h2 {
+    margin-bottom: 16px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pricing  */
+.pricing {
+    padding: 32px;
+}
+
+.pricing h2 {
+    margin-bottom: 16px;
+}
+
+.plan {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+
+
+/* Testimonials  */
+.testimonials {
+    padding: 32px;
+}
+
+.testimonial {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.contact {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
